@@ -1,0 +1,55 @@
+.chat {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;  
+    
+  }
+  .Chat_Field {
+    border: 2px solid lightblue;
+    height: 200px;
+    width: 450px;
+    margin-top: 10px;
+  }
+  
+  .input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid lightblue;
+  }
+  button {
+    padding: 5px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  .Send_Field {
+    width: 450px;
+    display: flex;
+    justify-content: space-between
+  }
+  .Chat_Field .get_message {
+    background-color: lightblue;
+    align-self: flex-start;
+  }
+  .Chat_Field .sent_message {
+    border: 2px solid lightblue;
+    align-self: flex-end;
+  }
+  .Chat_Field > div {
+    max-width: 40%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  .Chat_Field .error_connection {
+    background-color: red;
+    padding: 0px 5px
+  }
+  .Chat_Field {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
